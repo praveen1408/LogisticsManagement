@@ -1,0 +1,18 @@
+.jumbotron{
+    background-color: #303e73;
+    color: #eee;
+}
+
+body{
+    background-color: #ccc;
+}
+
+#container{
+    background-color: #eee;
+	font-size: 1.5em;	
+}
+
+#errorMsg{
+    color: #e44;
+}
+

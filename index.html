@@ -1,0 +1,40 @@
+<html>
+<head>
+<title> HTML5 Logistics management </title>
+<script src="./scripts/jquery-1.12.1.js"></script>
+<script src="./scripts/two.js"></script>
+<script src="./scripts/bootstrap.min.js"></script>
+
+<script src="./scripts/simplex.js"></script>
+<script src="./scripts/writer.js"></script>
+<script src="./scripts/preprocessor.js"></script>
+
+<link rel="stylesheet" href="./css/bootstrap.min.css"></link>
+<link rel="stylesheet" href="./css/styles.css"></link>
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>HTML5 Logistics Management Suite</h1> 
+	</div>	  
+	<div class="row">
+		<div class="col-md-4" id = "fields">
+			<div class="panel panel-info">
+				<div class="panel-heading"><h2>Input fields</h2></div>		
+				<div class="panel-body">
+					<input type="text" id="tRevenue" class="form-control" autocomplete="on" placeholder="Approximate revenue per truck"><br>
+					<input type="text" id="tSupply" class="form-control" autocomplete="on" placeholder="Supply"><br>
+					<input type="text" id="tDemand" class="form-control" autocomplete="on" placeholder="Demand"><br>
+					<textarea class="form-control" rows="5" id="tExpenditure" autocomplete="on"  placeholder="Expenditure"></textarea><br>
+					<button type="button" id="bGo" class="btn btn-info">Go</button>			
+					<p id="errorMsg"></p>
+				</div>
+			</div>			
+		</div>		
+		<div class="col-md-8" id = "container">		
+		</div>
+	</div>	
+</div>
+</body>
+</html>
